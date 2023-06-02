@@ -1,6 +1,6 @@
 sources:
   part_1:
-      description: Part 1: Top and side view RGB png images as analysed for 'Integrated Phenomics and Genomics reveals genetic loci associated with inflorescence growth in Brassica napus'. Dataset creator and collected by Kevin Williams, Jo Hepworth, and John Doonan at Aberystwyth University/National Plant Phenomics Centre 
+      description: Top and side view RGB png images as analysed for 'Integrated Phenomics and Genomics reveals genetic loci associated with inflorescence growth in Brassica napus'. Dataset creator and collected by Kevin Williams, Jo Hepworth, and John Doonan at Aberystwyth University/National Plant Phenomics Centre 
       origin: 
       driver: intake_xarray.image.ImageSource
       args:
