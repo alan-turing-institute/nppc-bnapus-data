@@ -4,4 +4,4 @@ sources:
       origin: 
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: ["zip://Part_1/{plantID}/{date}/*.png::simplecache::https://research.aber.ac.uk/files/64347697/Part_1.zip"]
+        urlpath: ["zip://{plantID}/{date}/*.png::simplecache::https://research.aber.ac.uk/files/64347697/Part_1.zip"]
