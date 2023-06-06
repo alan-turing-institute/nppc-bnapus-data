@@ -5,3 +5,4 @@ sources:
       driver: intake_xarray.image.ImageSource
       args:
         urlpath: ["zip://*/*/*.png::simplecache::https://research.aber.ac.uk/files/64347697/Part_1.zip"]
+        chunks: {}
