@@ -4,4 +4,10 @@ sources:
       origin: 
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: ["zip://Part_1/{plantID}/{date}/*.png::https://research.aber.ac.uk/files/64347697/Part_1.zip"]
+        urlpath: ["zip://Part_1/{plantID}/{date}/*.png::simplecache::https://research.aber.ac.uk/files/64347697/Part_1.zip"]
+ single:
+      description: Top and side view RGB png images as analysed for 'Integrated Phenomics and Genomics reveals genetic loci associated with inflorescence growth in Brassica napus'. Dataset creator and collected by Kevin Williams, Jo Hepworth, and John Doonan at Aberystwyth University/National Plant Phenomics Centre 
+      origin: 
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: ["zip://Part_1/BR017-028111/2018-07-17/00_VIS_sv_000-0-0-0.png::simplecache::https://research.aber.ac.uk/files/64347697/Part_1.zip"]
